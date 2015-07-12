@@ -1,8 +1,8 @@
 __author__ = 'doretd'
 
 import requests
-import sysroot
 
+import sysroot
 
 sysroot.log.debug('Hello')
 
@@ -17,3 +17,5 @@ sysroot.log.debug(r.headers['content-type'])
 sysroot.log.debug(r.encoding)
 sysroot.log.debug(r.text)
 sysroot.log.debug(r.json())
+
+#
